@@ -1,0 +1,228 @@
+.kumbh-sans  {
+    font-family: "Kumbh Sans", sans-serif;
+     
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+
+}
+
+
+.header_position_over{
+        position: absolute;
+        z-index: 8000;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0) !important;
+}
+.heder-section{
+    padding: 20px 50px 20px 50px;
+}
+.logo-img{
+    max-height: 3.5em;
+}
+.sc_layouts_menu_nav{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+}
+.sc_layouts_menu_nav>li {
+    position: relative;
+    float: left;
+    z-index: 20;
+}
+.menu-item a{
+    padding: 0.8em;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+}
+.menu-item a::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease; /* Smooth transition for width change */
+}
+
+.menu-item:hover a::after {
+    width: 100%; /* Expand the line to full width on hover */
+}
+
+.sc_button_size_small{
+    border-color:#1CC343;
+    background-color: #1CC343;
+    padding: 13px 40px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: white;
+    transition: .3s;
+}
+.sc_button_size_small:hover{
+    border-color:#0FA231;
+    background-color: #0FA231;
+}
+
+.sign_button_size_small{
+    border-color:#F82F77;
+    background-color: #F82F77;
+    padding: 13px 40px;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: white;
+    transition: .3s;
+}
+.sign_button_size_small:hover{
+    border-color:#DC0653;
+    background-color: #DC0653;
+}
+
+.bttns{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.hero-section{
+    padding: 60px 0px;
+}
+
+.welcome-section{
+    padding: 40px 0px;
+}
+
+
+
+.welcm{
+    color: #1CC343;
+    margin-bottom: 1.1em;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    opacity: 0.9;
+}
+.experience{
+    font-size: 3.167em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.053em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1.1px;
+}
+
+.card{
+    padding: 3.2em 2em 1.2em;
+    background-color: #120D1C;
+    position: relative;
+   
+}
+
+.sc_icons_item_details{
+    margin-top: 1.5em;
+    text-align: center;
+}
+.sc_icons_item_title{
+    font-size: 1.333em;
+    line-height: 1.2em;
+    font-weight: 800;
+}
+.sc_icons_item_description{
+    margin-top: 0.3em;
+    font-size: 17px;
+    line-height: 1.6em;
+}
+
+.star{
+    background-color: #F82F77;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.commission{
+    font-size: 1.944em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.086em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.35px;
+    margin: .5em 0px;
+}
+ .team{
+    font-size: 2.611em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.064em;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.9px;
+ }
+.sc_team_item_title{
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -0.28px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.sc_team_item_subtitle{
+    color: #D2D3D5;
+}
+.elementor-divider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.elementor-divider-separator{
+    border: 1px solid #7A7A7A;
+    width: 100%;
+}
+
+
+.team-section{
+    padding-bottom: 40px;
+}
+
+.footer-section{
+    padding: 30px 0px;
+}
+@media(max-width:900px){
+    .bttns,.menu-list{
+        display: none;
+         
+    }
+    
+     
+}
