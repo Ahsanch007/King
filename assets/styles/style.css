@@ -462,4 +462,7 @@ body{
 .mbl-bnt{
     display: block;
 }
+.mbl-row{
+    flex-direction: column-reverse;
+}
 }
