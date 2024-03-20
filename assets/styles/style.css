@@ -61,6 +61,40 @@ body{
     width: 100%; /* Expand the line to full width on hover */
 }
 
+
+.equal-height-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.equal-height-row .col-md-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.equal-height-row .card{
+    flex-grow: 1;
+}
+
+ .socials-icons{
+    cursor: pointer;
+    font-size: 20px;
+ }
+ .socials-icons i{
+    transition: .3s;
+
+ }
+ .socials-icons i:hover{
+    color: #F82F77;
+    
+ }
+ .companies{
+    cursor: pointer;
+ }
+
+
+
+
 .sc_button_size_small{
     border-color:#1CC343;
     background-color: #1CC343;
@@ -487,4 +521,29 @@ body{
     margin-top: 50px;
     justify-content: space-between;
 }
+.companies{
+    flex-direction: column;
+    gap: 10px;
+}
+}
+@media(min-width:1400px){
+    .bgg-img{
+        text-align: center;
+        margin-right: 24%;
+    }
+    .title-text{
+        max-width: 500px;
+        font-size: 66px;
+        margin-bottom: 10px;
+    }
+    .join{
+        margin-bottom: 40px;
+    }
+    .bgg-img img{
+        width: 800px;
+
+    }
+    .text-top{
+        padding-top: 5%;
+    }
 }
