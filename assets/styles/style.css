@@ -132,13 +132,32 @@ body{
     font-size: 40px ;
     font-weight: 800;
 }
-.bgg-img{
+.bgg-img {
     background-image: url('../images/graph-1.png');
     background-size: contain;
-    background-position: 50% 50%;
+    background-position: 50% 20%;
     background-repeat: no-repeat;
     text-align: end;
     overflow: hidden;
+    animation: zoomIn 2.6s ease-in-out;  
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0); 
+    }
+    to {
+        transform: scale(1);  
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0); /* Start the animation from zero scale */
+    }
+    to {
+        transform: scale(1); /* End the animation at full scale */
+    }
 }
 .bgg-img img{
     width: 600px;
