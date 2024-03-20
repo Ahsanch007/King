@@ -289,10 +289,12 @@ body{
 .nav-icon3{
     display: none;
 }
+.mbl-bnt{
+    display: none;
+}
 
 #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
-  width: 40px;
-  height: 40px;
+  
   position: relative;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -456,5 +458,8 @@ body{
 .bgg-img img{
     width: 100%;
     height: auto;
+}
+.mbl-bnt{
+    display: block;
 }
 }
