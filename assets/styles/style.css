@@ -466,6 +466,13 @@ body{
 .mbl-btn{
     gap: 30px;
 }
+
+
+.footer-list a:hover{
+    color: white !important;
+
+}
+
 @media(max-width:1123px){
     .bttns {
         display: none;
