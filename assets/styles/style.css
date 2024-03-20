@@ -115,7 +115,7 @@ body{
     width: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-   height: 100vh;
+   min-height: 100vh;
     transform: translate(0px, 0px);
     top: 0px;
     position: relative;
@@ -131,6 +131,7 @@ body{
     padding-top: 80px;
     font-size: 40px ;
     font-weight: 800;
+    max-width: 300px;
 }
 .bgg-img {
     background-image: url('../images/graph-1.png');
@@ -428,6 +429,15 @@ body{
 .fb:hover{
     color: #3b5998 !important;
 }
+.mbl-btn{
+    gap: 30px;
+}
+@media(max-width:1123px){
+    .bttns {
+        display: none;
+         
+    }
+}
 
 @media(max-width:900px){
     .bttns,.menu-list{
@@ -464,5 +474,17 @@ body{
 }
 .mbl-row{
     flex-direction: column-reverse;
+    padding-top: 150px;
+}
+.title-text{
+    max-width: 100%;
+    font-size: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    /* overflow-x: auto; */
+}
+.mbl-btn{
+    margin-top: 50px;
+    justify-content: space-between;
 }
 }
